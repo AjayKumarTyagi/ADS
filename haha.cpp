@@ -6,6 +6,11 @@ haha()
 {
 cout<<"const called";
 }
+  public:
+ void blah()
+ {
+ cout<<"fun called";
+ }
 };
 int main()
 {
