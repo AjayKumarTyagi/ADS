@@ -15,4 +15,5 @@ cout<<"const called";
 int main()
 {
 haha a;
+  a.blah();
 }
