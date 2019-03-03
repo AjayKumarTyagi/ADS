@@ -93,3 +93,16 @@ class result: public internal, public external
 			cout<<"final result: "<<total<<"%";
 		}
 };
+int main()
+{
+	result r;
+	r.details();
+	r.display();
+	r.int_marks();
+	r.int_display();
+    r.ext_marks();
+    r.ext_display();
+	r.cal_result();
+	r.result_display();
+	return 0;
+}
