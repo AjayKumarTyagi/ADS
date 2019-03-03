@@ -22,3 +22,24 @@ class student
 		cout<<"roll no: "<<roll<<endl;
 	}	
 };
+class internal: public student
+{
+	protected:
+		int marks1[6],i;
+		public:
+			void  int_marks()
+			{
+				for(i=0;i<6;i++)
+				{
+					cout<<"enter "<<i+1<<" subject's marks: ";
+					cin>>marks1[i];
+				}
+			}
+			void int_display()
+			{
+				for(i=0;i<6;i++)
+				{
+					cout<<i+1<<" subject's marks: "<<marks1[i]<<endl;
+				}
+			}
+};
