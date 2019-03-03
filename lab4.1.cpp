@@ -67,3 +67,29 @@ class external:virtual public student
 				}	
 			}
 };
+class result: public internal, public external
+{
+	 float total,total1=0,total2=0;
+	public:
+		
+	
+		
+		void cal_result()
+		{
+			
+		for(i=0;i<6;i++)
+		{
+			total1=total1+marks1[i];
+		}
+		
+		for(j=0;j<6;j++)
+		{
+			total2=total2+marks1[j];
+		}
+		total=(0.4*total1)/6+(0.6*total2)/6;	
+		}
+		void result_display()
+		{
+			cout<<"final result: "<<total<<"%";
+		}
+};
