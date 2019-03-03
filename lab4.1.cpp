@@ -43,3 +43,24 @@ class internal: public student
 				}
 			}
 };
+class external: public student
+{
+	protected:
+		int marks2[6],j;
+		public:
+			void ext_marks()
+			{
+				for(j=0;j<6;j++)
+				{
+				cout<<"enter "<<j+1<<" subject's marks: ";
+				cin>>marks2[j];	
+				}
+			}
+			void ext_display()
+			{
+			for(j=0;j<6;j++)
+				{
+					cout<<j+1<<" subject's marks: "<<marks2[j]<<endl;
+				}	
+			}
+};
