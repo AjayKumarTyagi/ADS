@@ -64,3 +64,24 @@ class external: public student
 				}	
 			}
 };
+class result: public internal, public external
+{
+	static float total,total1,total2;
+	public:
+		void cal_result()
+		{
+		for(i=0;i<6;i++)
+		{
+			total1=total1+marks1[i];
+		}
+		for(j=0;j<6;j++)
+		{
+			total2=total2+marks1[j];
+		}
+		total=(0.4*total1)+(0.6*total2);	
+		}
+		void result_display()
+		{
+			cout<<"final result: "<<total<<"%";
+		}
+};
