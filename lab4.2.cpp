@@ -12,3 +12,13 @@ class oxygen
 		}
 		friend void compound(oxygen o1,hydrogen h1,sulphur s1);
 };
+class hydrogen
+{
+	int h;
+	public:
+		void geth(int b)
+		{
+			h=b;
+		}
+	friend void compound(oxygen o1,hydrogen h1,sulphur s1);	
+};
