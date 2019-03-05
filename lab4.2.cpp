@@ -49,3 +49,20 @@ void compound(oxygen o1,hydrogen h1,sulphur s1)
 	     else
 	     cout<<endl<<"H2S2O3 cannot be formed";
 }
+int main()
+{
+	int a,b,c;
+	oxygen o;
+	hydrogen h;
+	sulphur s;
+	cout<<"enter no of oxygen: ";
+	cin>>a;
+	cout<<"enter no of hydrogen: ";
+	cin>>b;
+	cout<<"enter no of sulphur: ";
+	cin>>c;
+	o.geto(a);
+	h.geth(b);
+	s.gets(c);
+	compound(o,h,s);
+}
