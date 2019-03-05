@@ -32,3 +32,20 @@ class sulphur
 		}
 		friend void compound(oxygen o1,hydrogen h1,sulphur s1);
 };
+void compound(oxygen o1,hydrogen h1,sulphur s1)
+{
+	if(h1.h>=2&&s1.s>=1&&o1.o>=4)
+		cout<<endl<<"H2SO4 can be formed";
+	     else
+	     cout<<endl<<"H2SO4 cannot be formed";
+	     
+	if(h1.h>=2&&s1.s>=1&&o1.o>=3)
+		cout<<endl<<"H2SO3 can be formed";
+		else
+		cout<<endl<<"H2SO3 cannot be formed";
+	
+	if(h1.h>=2&&s1.s>=2&&o1.o>=2)
+	cout<<endl<<"H2S2O3 can be formed";
+	     else
+	     cout<<endl<<"H2S2O3 cannot be formed";
+}
