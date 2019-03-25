@@ -21,3 +21,19 @@ class student
 	}
 	friend class result;	
 };
+class result
+{
+	int avg,total=0;
+	public:
+		void display(student s)
+		{
+			for(s.i=0;s.i<6;s.i++)
+			{
+				total=total+s.marks[s.i];
+			}
+			cout<<"total marks: "<<total;
+			cout<<"average marks: "<<total/6;
+			cout<<"name: "<<s.name;
+			cout<<"sap id: "<<s.sap;
+		}
+};
