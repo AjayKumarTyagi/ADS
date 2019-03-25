@@ -37,3 +37,10 @@ class result
 			cout<<"sap id: "<<s.sap;
 		}
 };
+int main()
+{
+	student s;
+	result s1;
+	s.details();
+	s1.display(s);
+}
