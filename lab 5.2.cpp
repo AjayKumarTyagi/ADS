@@ -46,3 +46,13 @@ class area
 			return 0.5*a*b;
 		}
 };    
+int main()
+{
+	int a,b;
+	cout<<"enter side 1: ";
+	cin>>a;
+	cout<<"enter side 2: ";
+	cin>>b;
+	area ar(a,b);
+	ar.choice();
+}
