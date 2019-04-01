@@ -32,4 +32,17 @@ class area
 		   }
 		   cout<<s;
 		}
+	int calculate(int a)
+		{
+			return a*a;
+		}
+		int calculate(int a,int b)
+		{
+			return a*b;
+		}
+		float calculate(float a,float b)
+		{
+		
+			return 0.5*a*b;
+		}
 };    
