@@ -16,3 +16,14 @@ class temperature
 			cout<<fahrenheit;	
 		}
 };
+class temp: public temperature
+{
+	float kelvin;
+	public:	
+	temp(float y):temperature(y);
+		void convert()
+		{
+			kelvin=y+273.15;
+			cout<<"kelvin: "<<kelvin;
+		}
+};
