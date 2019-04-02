@@ -27,3 +27,11 @@ class temp: public temperature
 			cout<<"kelvin: "<<kelvin;
 		}
 };
+int main()
+{
+	float t;
+	cout<<"enter temperature in celsius: ";
+	cin>>t;
+	temperature t1(t);
+	temp t2(t);
+}
