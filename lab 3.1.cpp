@@ -8,4 +8,12 @@ class stack
 	struct node *next;
 };
 struct node *head=NULL;
+	public:
+		void push(int x)
+		{
+			node *temp=new node;
+			temp->val=x;
+			temp->next=head;
+			head=temp;
+		}
 };
