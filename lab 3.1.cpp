@@ -34,3 +34,26 @@ struct node *head=NULL;
 			}
 		}
 };
+int main()
+{
+	stack s;
+	int stack[100],n,data;
+	cout<<"enter the size: ";
+	cin>>n;
+	cout<<"enter the values: "<<endl;
+	for(int i=0;i<n;i++)
+	{
+		cout<<"enter "<<i+1<<" value: ";
+		cin>>data;
+		s.push(data);
+	}
+	cout<<"how many values you want to delete: ";
+	cin>>n;
+	for(int i=0;i<n;i++)
+	{
+		s.pop();
+	}
+	cout<<"displaying the data: "<<endl;
+	s.display();
+	
+}
