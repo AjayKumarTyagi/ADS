@@ -16,4 +16,11 @@ struct node *head=NULL;
 			temp->next=head;
 			head=temp;
 		}
+	void pop()
+		{
+			node *temp=new node;
+			temp=head;
+			head=temp->next;
+			delete temp;
+		}
 };
