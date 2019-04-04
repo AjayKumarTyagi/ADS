@@ -23,4 +23,14 @@ struct node *head=NULL;
 			head=temp->next;
 			delete temp;
 		}
+	void display()
+		{
+			node *temp=new node;
+			temp=head;
+			while(temp!=NULL)
+			{
+				cout<<temp->val<<endl;
+				temp=temp->next;
+			}
+		}
 };
