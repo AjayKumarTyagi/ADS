@@ -15,3 +15,11 @@ void num2(float real2,float img2){
 			this->img2=img2;
 			this->real2=real2;
 		}
+	void add(){
+			cout<<real+real2;
+			cout<<endl<<img+img2;
+		}
+		
+		friend void des_obj(complex*);
+			
+};
