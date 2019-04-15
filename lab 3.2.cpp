@@ -23,3 +23,6 @@ void num2(float real2,float img2){
 		friend void des_obj(complex*);
 			
 };
+void des_obj(complex *p){
+	delete p;
+}
