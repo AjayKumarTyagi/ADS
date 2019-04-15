@@ -6,3 +6,8 @@ class complex{
 	~complex()
 	 {	cout<<"\ndes";
 	 }
+public:
+		void num1(float real,float img){
+			this->img=img;
+			this->real=real;
+		}
