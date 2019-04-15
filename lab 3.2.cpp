@@ -26,3 +26,11 @@ void num2(float real2,float img2){
 void des_obj(complex *p){
 	delete p;
 }
+int main(){
+	complex *c=new complex;
+	c->num1(3,4);
+	c->num2(3,4);
+	c->add();
+	des_obj(c);
+   
+}
